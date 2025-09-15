@@ -7,13 +7,20 @@ export default function Reviews() {
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
-          Product Reviews
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Honest reviews of products I actually use. No sponsored fluff - just real experiences 
-          with items that make daily life better (or worse).
-        </p>
+        <div className="glass-rose p-8 rounded-3xl mx-4">
+          <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
+            💖 Product Love 💖
+          </h1>
+          <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
+            🌹 Honest reviews of products I absolutely adore! No sponsored fluff - just real experiences 
+            with items that make daily life more beautiful and magical! ✨
+          </p>
+          <div className="mt-6 flex justify-center space-x-4">
+            <span className="text-3xl animate-pulse">💖</span>
+            <span className="text-3xl animate-pulse" style={{animationDelay: '0.4s'}}>🌹</span>
+            <span className="text-3xl animate-pulse" style={{animationDelay: '0.8s'}}>✨</span>
+          </div>
+        </div>
       </div>
       
       <div className="grid md:grid-cols-2 gap-8">

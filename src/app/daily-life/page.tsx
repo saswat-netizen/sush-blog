@@ -7,13 +7,20 @@ export default function DailyLife() {
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-          Daily Life
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          My daily routines, habits, and the products that make everyday life better. 
-          From morning rituals to evening wind-downs.
-        </p>
+        <div className="glass-rose p-8 rounded-3xl mx-4">
+          <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
+            ✨ Daily Life Magic ✨
+          </h1>
+          <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
+            🌹 My daily routines, habits, and the products that make everyday life more beautiful! 
+            From morning rituals to evening wind-downs - let&apos;s make every day sparkle! 💕
+          </p>
+          <div className="mt-6 flex justify-center space-x-4">
+            <span className="text-3xl animate-pulse">✨</span>
+            <span className="text-3xl animate-pulse" style={{animationDelay: '0.5s'}}>🌸</span>
+            <span className="text-3xl animate-pulse" style={{animationDelay: '1s'}}>💕</span>
+          </div>
+        </div>
       </div>
       
       <div className="grid md:grid-cols-2 gap-8">

@@ -1,13 +1,25 @@
 export default function About() {
   return (
     <div className="container mx-auto px-6 py-12 max-w-4xl">
-      <h1 className="text-4xl font-bold mb-8">About Me & This Journey</h1>
+      <div className="text-center mb-12">
+        <div className="glass-rose p-8 rounded-3xl">
+          <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
+            🌹 About Me & This Magical Journey 🌹
+          </h1>
+          <div className="flex justify-center space-x-4 mt-6">
+            <span className="text-4xl animate-bounce">💕</span>
+            <span className="text-4xl animate-bounce" style={{animationDelay: '0.2s'}}>✨</span>
+            <span className="text-4xl animate-bounce" style={{animationDelay: '0.4s'}}>🌸</span>
+          </div>
+        </div>
+      </div>
       
-      <div className="prose prose-lg max-w-none">
-        <p className="text-xl text-gray-600 mb-8">
-          Hey there! I&apos;m Sush, and this is my little corner of the internet where I share the real, unfiltered moments of daily life, 
-          travel adventures, and honest reviews of products that actually make a difference.
-        </p>
+      <div className="glass-rose p-8 rounded-3xl">
+        <div className="prose prose-lg max-w-none">
+          <p className="text-xl text-pink-800 mb-8 font-medium text-center">
+            Hey beautiful! 💕 I&apos;m Sush, and this is my dreamy corner of the internet where I share the real, magical moments of daily life, 
+            travel adventures, and honest reviews of products that actually make life more beautiful! ✨
+          </p>
         
         <h2 className="text-2xl font-semibold mb-4">Who Am I?</h2>
         <p className="mb-6">

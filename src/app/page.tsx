@@ -7,40 +7,58 @@ export default function Home() {
   return (
     <div className="container mx-auto px-6 py-12">
       {/* Hero Section */}
-      <section className="text-center mb-16">
-        <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-          Welcome to My Life Journey
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Join me as I share my daily adventures, travel experiences, and honest reviews of products that make everyday life better. 
-          From morning routines to travel essentials - let&apos;s explore life together!
-        </p>
+      <section className="text-center mb-16 rose-pattern py-16 rounded-3xl">
+        <div className="glass-rose p-12 rounded-3xl mx-4">
+          <h1 className="text-6xl font-bold mb-6 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
+            Welcome to My Dreamy Life 🌹
+          </h1>
+          <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
+            ✨ Join me on this magical journey as I share my daily adventures, travel dreams, and honest reviews of products that make life more beautiful! 
+            From morning routines to travel essentials - let&apos;s explore this colorful world together! 💕
+          </p>
+          <div className="mt-8 flex justify-center space-x-4">
+            <span className="text-4xl animate-bounce">🌸</span>
+            <span className="text-4xl animate-bounce" style={{animationDelay: '0.2s'}}>🌺</span>
+            <span className="text-4xl animate-bounce" style={{animationDelay: '0.4s'}}>🌷</span>
+          </div>
+        </div>
       </section>
 
       {/* Featured Posts */}
       <section>
-        <h2 className="text-3xl font-bold mb-8">Latest Posts</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
+          🌸 Latest Adventures 🌸
+        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {posts.map((post) => (
-            <article key={post.slug} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+          {posts.map((post, index) => (
+            <article key={post.slug} className="glass-rose rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 sparkle">
               <div className="p-6">
                 <div className="flex items-center mb-4">
-                  <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-                    {post.category}
+                  <span className="bg-gradient-to-r from-pink-400 to-purple-400 text-white text-xs font-medium px-3 py-1 rounded-full">
+                    {post.category === 'Daily Life' ? '✨ ' + post.category : 
+                     post.category === 'Travel' ? '✈️ ' + post.category :
+                     post.category === 'Product Reviews' ? '💖 ' + post.category : post.category}
                   </span>
-                  <span className="text-gray-500 text-sm ml-auto">{post.date}</span>
+                  <span className="text-pink-600 text-sm ml-auto font-medium">{post.date}</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-3 hover:text-blue-600 transition-colors">
+                <h3 className="text-xl font-semibold mb-3 hover:text-pink-600 transition-colors text-pink-800">
                   <Link href={`/posts/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h3>
-                <p className="text-gray-600 mb-4 line-clamp-3">{post.excerpt}</p>
+                <p className="text-pink-700 mb-4 line-clamp-3">{post.excerpt}</p>
+                {post.videoUrl && (
+                  <div className="mb-3">
+                    <span className="inline-flex items-center text-sm text-red-500 font-medium">
+                      🎥 Video Available
+                    </span>
+                  </div>
+                )}
                 <Link 
                   href={`/posts/${post.slug}`}
-                  className="text-blue-600 hover:text-blue-800 font-medium"
+                  className="btn-rose text-white px-4 py-2 rounded-full font-medium inline-flex items-center"
                 >
-                  Read more →
+                  Read more 🌹
                 </Link>
               </div>
             </article>

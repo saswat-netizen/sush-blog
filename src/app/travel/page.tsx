@@ -7,13 +7,20 @@ export default function Travel() {
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-green-500 bg-clip-text text-transparent">
-          Travel Adventures
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Real travel experiences, honest destination guides, and the gear that actually works. 
-          No Instagram filters, just authentic adventures.
-        </p>
+        <div className="glass-rose p-8 rounded-3xl mx-4">
+          <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
+            ✈️ Travel Dreams ✈️
+          </h1>
+          <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
+            🌹 Real travel experiences, dreamy destination guides, and the cutest gear that actually works! 
+            No filters needed - just authentic adventures and magical moments! ✨
+          </p>
+          <div className="mt-6 flex justify-center space-x-4">
+            <span className="text-3xl animate-bounce">✈️</span>
+            <span className="text-3xl animate-bounce" style={{animationDelay: '0.3s'}}>🌍</span>
+            <span className="text-3xl animate-bounce" style={{animationDelay: '0.6s'}}>💕</span>
+          </div>
+        </div>
       </div>
       
       <div className="grid md:grid-cols-2 gap-8">
