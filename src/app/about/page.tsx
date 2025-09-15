@@ -51,6 +51,7 @@ export default function About() {
           or just want to share your own experiences, don&apos;t hesitate to reach out. We&apos;re all in this journey together, 
           and I believe we can learn so much from each other&apos;s experiences.
         </p>
+        </div>
       </div>
     </div>
   )
