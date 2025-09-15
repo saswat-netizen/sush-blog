@@ -9,11 +9,10 @@ export default function Travel() {
       <div className="text-center mb-12">
         <div className="glass-rose p-8 rounded-3xl mx-4">
           <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
-            ✈️ Travel Dreams ✈️
+            🌍 Cultural Journeys 🌍
           </h1>
           <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
-            🌹 Real travel experiences, dreamy destination guides, and the cutest gear that actually works! 
-            No filters needed - just authentic adventures and magical moments! ✨
+            🌹 Deep cultural immersion, transformative travel experiences, and the wisdom gained from calling multiple countries home. Beyond tourist trails - discover how travel becomes a teacher, healer, and catalyst for personal evolution. ✨
           </p>
           <div className="mt-6 flex justify-center space-x-4">
             <span className="text-3xl animate-bounce">✈️</span>

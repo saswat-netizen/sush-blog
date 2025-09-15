@@ -9,11 +9,10 @@ export default function DailyLife() {
       <div className="text-center mb-12">
         <div className="glass-rose p-8 rounded-3xl mx-4">
           <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
-            ✨ Daily Life Magic ✨
+            ✨ Mindful Living ✨
           </h1>
           <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
-            🌹 My daily routines, habits, and the products that make everyday life more beautiful! 
-            From morning rituals to evening wind-downs - let&apos;s make every day sparkle! 💕
+            🌹 Intentional daily practices, refined routines, and the carefully chosen elements that create a life of beauty, purpose, and joy. From sacred morning rituals to evening reflections - discover how small, mindful choices create extraordinary days. 💕
           </p>
           <div className="mt-6 flex justify-center space-x-4">
             <span className="text-3xl animate-pulse">✨</span>

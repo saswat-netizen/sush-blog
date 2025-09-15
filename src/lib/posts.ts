@@ -13,147 +13,146 @@ export interface Post {
 // Sample blog posts data
 const posts: Post[] = [
   {
-    slug: 'morning-routine-essentials',
-    title: 'My 5 AM Morning Routine: Products That Changed My Life',
-    excerpt: 'Discover the daily essentials and habits that transformed my mornings from chaotic to productive. Plus honest reviews of every product I use.',
-    content: `# My 5 AM Morning Routine: Products That Changed My Life
+    slug: 'morning-ritual-wisdom',
+    title: 'The Morning Ritual That Transformed My Life: 15 Years of Refinement',
+    excerpt: 'After living in 8 countries and countless morning experiments, I&apos;ve discovered the perfect blend of mindfulness, productivity, and self-care that works across cultures and life phases.',
+    content: `# The Morning Ritual That Transformed My Life: 15 Years of Refinement
 
-Starting my day at 5 AM has been a game-changer. Here&apos;s exactly what I do and the products that make it possible.
+After 15 years of experimenting with morning routines across different time zones, cultures, and life phases, I&apos;ve finally found the perfect formula that works whether I&apos;m in my London flat, a Balinese villa, or a New York hotel.
 
-## The Wake-Up (5:00 AM)
+## The Foundation: Mindful Awakening (5:30 AM)
 
-**Philips Wake-Up Light** - This sunrise alarm clock has revolutionized how I wake up. No more jarring phone alarms!
+**Philips Somneo Sleep & Wake-Up Light** - After trying dozens of alarm clocks across continents, this remains my non-negotiable. The gradual light simulation respects your circadian rhythm.
 
-## Hydration First (5:05 AM)
+## Sacred Hydration (5:35 AM)
 
-**Stanley Tumbler 40oz** - Keeps my water ice-cold all day. I start with 16oz of water immediately upon waking.
+**LARQ Self-Cleaning Water Bottle** - Clean water anywhere in the world. I start with 500ml of room temperature water with a pinch of Himalayan salt - a habit I picked up during my wellness retreat in India.
 
-## Movement & Stretching (5:10 AM)
+## Movement as Medicine (5:40 AM)
 
-**Manduka PRO Yoga Mat** - 5 minutes of gentle stretching to activate my body. This mat has incredible grip and cushioning.
+**Liforme Yoga Mat** - This eco-luxury mat has traveled with me to 20+ countries. 10 minutes of gentle flow, combining techniques I&apos;ve learned from teachers in Rishikesh, Tulum, and Byron Bay.
 
-## Coffee Ritual (5:15 AM)
+## The Coffee Ceremony (5:50 AM)
 
-**Chemex Pour-Over** - The ritual of making coffee mindfully sets the tone for my day.
-**Baratza Encore Grinder** - Consistent grind size makes all the difference.
+**Hario V60 Dripper** - The Japanese art of pour-over coffee. I source beans from local roasters wherever I am - it&apos;s my way of connecting with each place I call home.
 
-## Planning & Reflection (5:30 AM)
+## Intention Setting (6:00 AM)
 
-**Moleskine Daily Planner** - I write down 3 priorities for the day and reflect on yesterday.
+**Leuchtturm1917 Notebook** - German engineering meets mindful planning. I write three intentions (not just tasks) and one gratitude from yesterday.
 
-## Why This Works
+## Why This Works Globally
 
-This routine gives me 2 hours of uninterrupted time before the world wakes up. It&apos;s my secret weapon for productivity.
+This routine has sustained me through career pivots, relationship changes, and countless relocations. It&apos;s not about perfection - it&apos;s about creating a sacred space for yourself, no matter where life takes you.
 
-*What&apos;s your morning routine like? Let me know in the comments!*`,
+*What rituals ground you, no matter where you are in the world?*`,
     date: '2024-01-15',
     category: 'Daily Life',
     author: 'Sush',
     videoUrl: 'https://youtube.com/watch?v=example1',
-    productLinks: ['https://amazon.com/philips-wake-up-light', 'https://stanley1913.com/tumbler']
+    productLinks: ['https://amazon.com/philips-somneo', 'https://livelarq.com']
   },
   {
-    slug: 'tokyo-travel-essentials',
-    title: 'Tokyo Travel Guide: 10 Must-Have Items for First-Time Visitors',
-    excerpt: 'Just returned from an incredible 2-week trip to Tokyo! Here are the essential items that made my journey smooth and memorable.',
-    content: `# Tokyo Travel Guide: 10 Must-Have Items for First-Time Visitors
+    slug: 'japan-cultural-immersion',
+    title: 'Living in Japan: What 6 Months Taught Me About Mindful Travel',
+    excerpt: 'Beyond the tourist trail - insights from spending half a year in Japan, learning the language, and discovering the profound art of omotenashi (hospitality) that changed how I travel forever.',
+    content: `# Living in Japan: What 6 Months Taught Me About Mindful Travel
 
-Just got back from Tokyo and WOW! Here are the items that saved my trip multiple times.
+After 40+ countries, I thought I understood travel. Then I spent 6 months living in Kyoto, learning Japanese, and discovering that true cultural immersion requires surrendering your preconceptions and embracing discomfort as a teacher.
 
-## Navigation & Communication
+## The Art of Slow Travel
 
-**Pocket WiFi Device** - Absolute lifesaver! Google Translate worked flawlessly with constant internet.
+**Language Learning Apps vs. Reality** - Duolingo prepared me for ordering coffee, not for the emotional complexity of expressing gratitude in a culture where words carry ancestral weight.
 
-**Suica Card** - One card for all trains, subways, and even convenience stores. Get it at the airport!
+**Neighborhood Rhythms** - Living in Nishiki-koji taught me that the most profound travel experiences happen in grocery stores, not temples.
 
-## Comfort & Convenience
+## Essential Mindset Shifts
 
-**Uniqlo Heattech Base Layers** - January in Tokyo is COLD. These kept me warm without bulk.
+**Embrace the Bow** - It&apos;s not just politeness; it&apos;s acknowledgment of shared humanity. I learned 7 different types of bows, each with its own meaning.
 
-**Portable Phone Charger (20,000mAh)** - You&apos;ll be using your phone constantly for translation and photos.
+**The Power of Silence** - In Japanese culture, comfortable silence is a gift. This transformed how I approach conversations worldwide.
 
-**Comfortable Walking Shoes** - I walked 15+ miles daily. My Allbirds were perfect.
+**Seasonal Awareness** - The Japanese concept of mono no aware (the pathos of things) taught me to notice beauty in impermanence.
 
-## Food & Dining
+## Cultural Intelligence Tools
 
-**Chopstick Etiquette Guide** - Saved me from embarrassing moments at traditional restaurants.
+**Furoshiki Wrapping Cloths** - Beyond eco-friendly packaging, they represent the Japanese philosophy of making beautiful what is necessary.
 
-**Cash Wallet** - Japan is still very cash-based. Keep plenty of yen handy.
+**Tenugui Hand Towels** - Practical art that reflects regional identity. I collected them from each prefecture I visited.
 
-## Cultural Experiences
+**Omamori Selection** - Each temple&apos;s protective charms reflect local spiritual needs. Choose mindfully, not as souvenirs.
 
-**JR Pass** - If you&apos;re traveling between cities, this pays for itself quickly.
+## The Omotenashi Effect
 
-**Omamori (Good Luck Charm)** - Bought one at Senso-ji Temple. Great souvenir and conversation starter.
+Experiencing true Japanese hospitality - anticipating needs before they&apos;re expressed - revolutionized my understanding of service, gratitude, and human connection.
 
-**Furoshiki Wrapping Cloth** - Eco-friendly way to carry purchases and gifts.
+## What This Means for Your Travel
 
-## Pro Tips
+True cultural immersion isn&apos;t about checking boxes or collecting experiences. It&apos;s about allowing a place to change you, even when (especially when) it&apos;s uncomfortable.
 
-- Download Google Translate with camera feature
-- Learn basic phrases: arigatou gozaimasu, sumimasen, eigo ga dekimasu ka?
-- Bow slightly when greeting - it&apos;s appreciated!
-
-*Planning a Tokyo trip? Ask me anything in the comments!*`,
+*How has deep cultural immersion changed your perspective on travel and life?*`,
     date: '2024-01-10',
     category: 'Travel',
     author: 'Sush',
     videoUrl: 'https://youtube.com/watch?v=example2'
   },
   {
-    slug: 'home-office-setup-2024',
-    title: 'My Work-From-Home Setup: Honest Reviews After 6 Months',
-    excerpt: 'After 6 months of remote work, here&apos;s what actually works in my home office setup and what was a waste of money.',
-    content: `# My Work-From-Home Setup: Honest Reviews After 6 Months
+    slug: 'nomadic-workspace-evolution',
+    title: 'Building the Perfect Nomadic Workspace: 5 Years, 25 Countries, Countless Lessons',
+    excerpt: 'From co-working spaces in Canggu to hotel rooms in Copenhagen - how I&apos;ve refined my mobile office setup through years of location independence and what truly matters for productive remote work.',
+    content: `# Building the Perfect Nomadic Workspace: 5 Years, 25 Countries, Countless Lessons
 
-I&apos;ve been working from home for 6 months now. Here&apos;s what&apos;s actually worth buying.
+After 5 years of location independence, working from 25+ countries while building my consulting business, I&apos;ve learned that the perfect workspace isn&apos;t about having the most expensive gear - it&apos;s about creating consistency and comfort anywhere in the world.
 
-## The Desk Setup
+## The Philosophy: Less is More
 
-**IKEA Bekant Desk** - Simple, affordable, and spacious. No regrets here.
+**Weight vs. Value Calculation** - Every item must justify its space in my 40L travel backpack. If it doesn&apos;t serve multiple purposes or significantly improve my work quality, it doesn&apos;t travel with me.
 
-**Herman Miller Aeron Chair** - Expensive but worth every penny. My back pain disappeared.
+## The Core Setup (Under 3kg)
 
-**Monitor Arm (VIVO Dual)** - Game changer for ergonomics and desk space.
+**MacBook Pro 14" M2** - The sweet spot between power and portability. Handles video calls from Bali to board presentations in Berlin.
 
-## Tech That Works
+**Roost Laptop Stand** - Transforms any surface into an ergonomic workspace. Weighs 170g, saves my neck and posture.
 
-**MacBook Pro M2** - Handles everything I throw at it. Battery lasts all day.
+**Apple Magic Keyboard & Trackpad** - Consistent typing experience whether I&apos;m in a Lisbon café or a Tokyo co-working space.
 
-**LG 27" 4K Monitor** - Crystal clear for design work and video calls.
+## Audio Excellence Anywhere
 
-**Blue Yeti Microphone** - Colleagues constantly compliment my audio quality.
+**Sony WH-1000XM5 Headphones** - Noise cancellation that works in bustling Bangkok markets or chatty co-working spaces. Essential for maintaining focus.
 
-**Logitech MX Master 3** - Best mouse I&apos;ve ever used. The scroll wheel is magic.
+**Shure MV7 Microphone** - Professional audio quality for client calls, podcasts, and video content. USB-C connectivity means one less adapter.
 
-## Lighting & Ambiance
+## Power & Connectivity Solutions
 
-**Elgato Key Light** - Perfect for video calls. No more weird shadows.
+**Anker PowerCore 26800 PD** - Keeps everything charged during long flights and unreliable power situations.
 
-**Philips Hue Bulbs** - Adjusting color temperature throughout the day helps with focus.
+**Twelve South PlugBug World** - One charger for 150+ countries. Eliminates the adapter guessing game.
 
-## What I Regret Buying
+**Skyroam Solis X** - Global WiFi hotspot that&apos;s saved me countless times when local internet fails during important calls.
 
-**Standing Desk Converter** - Used it for 2 weeks, now it&apos;s collecting dust.
+## The Intangibles That Matter Most
 
-**Expensive Mechanical Keyboard** - Too loud for video calls, went back to Apple Magic Keyboard.
+**Routine Over Location** - My morning ritual (meditation, journaling, priority setting) creates mental workspace consistency regardless of physical environment.
 
-## The Real Game Changers
+**Boundary Setting** - Learning to say no to "just one drink" when you have early client calls across time zones.
 
-1. **Good lighting** - Makes you look professional on calls
-2. **Comfortable chair** - Your back will thank you
-3. **Dual monitors** - Productivity boost is real
-4. **Quality microphone** - People judge your professionalism by audio quality
+**Cultural Sensitivity** - Understanding local work customs prevents misunderstandings and builds stronger international relationships.
 
-## Total Investment
+## What I&apos;ve Learned
 
-About $3,500 over 6 months. Sounds like a lot, but considering I use this setup 8+ hours daily, it&apos;s worth it.
+1. **Invest in experiences, not equipment** - The best workspace is one that enables meaningful work and life experiences
+2. **Backup everything** - Technology fails, internet cuts out, but preparation keeps you professional
+3. **Health is wealth** - Ergonomics matter more when you&apos;re working from cramped spaces
+4. **Relationships transcend technology** - The best business tool is genuine human connection
 
-*What&apos;s in your home office setup? Share your must-haves!*`,
+## Total Investment: $4,200
+
+Spread over 5 years, this setup has enabled me to build a six-figure business while exploring the world. The ROI isn&apos;t just financial - it&apos;s the freedom to design a life that aligns with your values.
+
+*What would you include in your dream nomadic workspace?*`,
     date: '2024-01-05',
     category: 'Product Reviews',
     author: 'Sush',
-    productLinks: ['https://amazon.com/herman-miller-aeron', 'https://apple.com/macbook-pro']
+    productLinks: ['https://apple.com/macbook-pro', 'https://therooststand.com']
   }
 ]
 

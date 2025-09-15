@@ -10,11 +10,10 @@ export default function Home() {
       <section className="text-center mb-16 rose-pattern py-16 rounded-3xl">
         <div className="glass-rose p-12 rounded-3xl mx-4">
           <h1 className="text-6xl font-bold mb-6 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
-            Welcome to My Dreamy Life 🌹
+            Life, Love & Wanderlust 🌍
           </h1>
-          <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
-            ✨ Join me on this magical journey as I share my daily adventures, travel dreams, and honest reviews of products that make life more beautiful! 
-            From morning routines to travel essentials - let&apos;s explore this colorful world together! 💕
+          <p className="text-xl text-pink-800 max-w-3xl mx-auto font-medium">
+            ✨ After 15+ years of exploring 40+ countries, building a career, and navigating life&apos;s beautiful chaos, I&apos;m here to share the wisdom, wanderlust, and wonder I&apos;ve collected along the way. From boardrooms to backpacking, motherhood to mindfulness - this is real life, beautifully lived. 🌹
           </p>
           <div className="mt-8 flex justify-center space-x-4">
             <span className="text-4xl animate-bounce">🌸</span>

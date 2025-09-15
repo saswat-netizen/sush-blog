@@ -28,13 +28,13 @@ export default function Header() {
                 🏠 Home
               </Link>
               <Link href="/daily-life" className="text-pink-700 hover:text-pink-500 transition-colors font-medium flex items-center">
-                ✨ Daily Life
+                ✨ Mindful Living
               </Link>
               <Link href="/travel" className="text-pink-700 hover:text-pink-500 transition-colors font-medium flex items-center">
-                ✈️ Travel
+                🌍 Cultural Journeys
               </Link>
               <Link href="/reviews" className="text-pink-700 hover:text-pink-500 transition-colors font-medium flex items-center">
-                💖 Reviews
+                💖 Curated Finds
               </Link>
               <Link href="/videos" className="text-pink-700 hover:text-pink-500 transition-colors font-medium flex items-center">
                 🎥 Videos

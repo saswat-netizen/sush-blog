@@ -9,11 +9,10 @@ export default function Reviews() {
       <div className="text-center mb-12">
         <div className="glass-rose p-8 rounded-3xl mx-4">
           <h1 className="text-5xl font-bold mb-4 gradient-text-rose" style={{fontFamily: 'Dancing Script'}}>
-            💖 Product Love 💖
+            💖 Curated Finds 💖
           </h1>
           <p className="text-xl text-pink-800 max-w-2xl mx-auto font-medium">
-            🌹 Honest reviews of products I absolutely adore! No sponsored fluff - just real experiences 
-            with items that make daily life more beautiful and magical! ✨
+            🌹 Thoughtfully curated recommendations from years of global living and conscious consumption. Each product has earned its place through real-world testing, cultural exploration, and the discerning eye of someone who values quality over quantity. ✨
           </p>
           <div className="mt-6 flex justify-center space-x-4">
             <span className="text-3xl animate-pulse">💖</span>
