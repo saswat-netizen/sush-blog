@@ -4,18 +4,18 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Sush<span className="text-blue-400">Blog</span></h3>
+            <h3 className="text-xl font-bold mb-4">Sush<span className="text-orange-400">Life</span></h3>
             <p className="text-gray-400">
-              A modern blog focused on technology, programming, and digital innovation.
+              Sharing daily adventures, travel experiences, and honest product reviews to help you live better.
             </p>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Categories</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Web Development</li>
-              <li>AI & Machine Learning</li>
-              <li>Cloud Computing</li>
-              <li>DevOps</li>
+              <li>Daily Life</li>
+              <li>Travel Adventures</li>
+              <li>Product Reviews</li>
+              <li>Home Essentials</li>
             </ul>
           </div>
           <div>

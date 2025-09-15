@@ -8,12 +8,12 @@ export default function Home() {
     <div className="container mx-auto px-6 py-12">
       {/* Hero Section */}
       <section className="text-center mb-16">
-        <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          Welcome to Sush Blog
+        <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
+          Welcome to My Life Journey
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Exploring the latest in technology, programming, and digital innovation. 
-          Join me on this journey of continuous learning and discovery.
+          Join me as I share my daily adventures, travel experiences, and honest reviews of products that make everyday life better. 
+          From morning routines to travel essentials - let&apos;s explore life together!
         </p>
       </section>
 

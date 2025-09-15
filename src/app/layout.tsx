@@ -7,8 +7,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Sush Blog - Tech Insights & Tutorials',
-  description: 'A modern blog focused on technology, programming, and digital innovation',
+  title: 'Sush Life - Daily Adventures & Product Reviews',
+  description: 'Join me on my daily journey through life, travel adventures, and honest reviews of everyday essentials that make life better',
 }
 
 export default function RootLayout({

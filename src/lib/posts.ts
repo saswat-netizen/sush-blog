@@ -6,95 +6,154 @@ export interface Post {
   date: string
   category: string
   author: string
+  videoUrl?: string
+  productLinks?: string[]
 }
 
 // Sample blog posts data
 const posts: Post[] = [
   {
-    slug: 'getting-started-with-nextjs',
-    title: 'Getting Started with Next.js 14: A Complete Guide',
-    excerpt: 'Learn how to build modern web applications with Next.js 14, including the new App Router and Server Components.',
-    content: `# Getting Started with Next.js 14
+    slug: 'morning-routine-essentials',
+    title: 'My 5 AM Morning Routine: Products That Changed My Life',
+    excerpt: 'Discover the daily essentials and habits that transformed my mornings from chaotic to productive. Plus honest reviews of every product I use.',
+    content: `# My 5 AM Morning Routine: Products That Changed My Life
 
-Next.js 14 brings exciting new features and improvements that make building React applications even more powerful and efficient.
+Starting my day at 5 AM has been a game-changer. Here&apos;s exactly what I do and the products that make it possible.
 
-## Key Features
+## The Wake-Up (5:00 AM)
 
-- **App Router**: The new file-system based router built on React Server Components
-- **Server Components**: Render components on the server for better performance
-- **Streaming**: Progressive rendering for faster page loads
-- **Turbopack**: Next-generation bundler for faster development
+**Philips Wake-Up Light** - This sunrise alarm clock has revolutionized how I wake up. No more jarring phone alarms!
 
-## Installation
+## Hydration First (5:05 AM)
 
-\`\`\`bash
-npx create-next-app@latest my-app
-cd my-app
-npm run dev
-\`\`\`
+**Stanley Tumbler 40oz** - Keeps my water ice-cold all day. I start with 16oz of water immediately upon waking.
 
-## Conclusion
+## Movement & Stretching (5:10 AM)
 
-Next.js 14 represents a significant step forward in React development, offering improved performance and developer experience.`,
+**Manduka PRO Yoga Mat** - 5 minutes of gentle stretching to activate my body. This mat has incredible grip and cushioning.
+
+## Coffee Ritual (5:15 AM)
+
+**Chemex Pour-Over** - The ritual of making coffee mindfully sets the tone for my day.
+**Baratza Encore Grinder** - Consistent grind size makes all the difference.
+
+## Planning & Reflection (5:30 AM)
+
+**Moleskine Daily Planner** - I write down 3 priorities for the day and reflect on yesterday.
+
+## Why This Works
+
+This routine gives me 2 hours of uninterrupted time before the world wakes up. It&apos;s my secret weapon for productivity.
+
+*What&apos;s your morning routine like? Let me know in the comments!*`,
     date: '2024-01-15',
-    category: 'Web Development',
-    author: 'Sush'
+    category: 'Daily Life',
+    author: 'Sush',
+    videoUrl: 'https://youtube.com/watch?v=example1',
+    productLinks: ['https://amazon.com/philips-wake-up-light', 'https://stanley1913.com/tumbler']
   },
   {
-    slug: 'ai-trends-2024',
-    title: 'AI Trends to Watch in 2024',
-    excerpt: 'Explore the most significant artificial intelligence trends that will shape the technology landscape in 2024.',
-    content: `# AI Trends to Watch in 2024
+    slug: 'tokyo-travel-essentials',
+    title: 'Tokyo Travel Guide: 10 Must-Have Items for First-Time Visitors',
+    excerpt: 'Just returned from an incredible 2-week trip to Tokyo! Here are the essential items that made my journey smooth and memorable.',
+    content: `# Tokyo Travel Guide: 10 Must-Have Items for First-Time Visitors
 
-Artificial Intelligence continues to evolve at a rapid pace. Here are the key trends to watch this year.
+Just got back from Tokyo and WOW! Here are the items that saved my trip multiple times.
 
-## 1. Generative AI Mainstream Adoption
+## Navigation & Communication
 
-Generative AI tools are becoming integral to business operations across industries.
+**Pocket WiFi Device** - Absolute lifesaver! Google Translate worked flawlessly with constant internet.
 
-## 2. AI-Powered Development Tools
+**Suica Card** - One card for all trains, subways, and even convenience stores. Get it at the airport!
 
-Code generation and assistance tools are revolutionizing software development.
+## Comfort & Convenience
 
-## 3. Ethical AI and Governance
+**Uniqlo Heattech Base Layers** - January in Tokyo is COLD. These kept me warm without bulk.
 
-Focus on responsible AI development and deployment practices.
+**Portable Phone Charger (20,000mAh)** - You&apos;ll be using your phone constantly for translation and photos.
 
-## Conclusion
+**Comfortable Walking Shoes** - I walked 15+ miles daily. My Allbirds were perfect.
 
-2024 will be a pivotal year for AI adoption and innovation across all sectors.`,
+## Food & Dining
+
+**Chopstick Etiquette Guide** - Saved me from embarrassing moments at traditional restaurants.
+
+**Cash Wallet** - Japan is still very cash-based. Keep plenty of yen handy.
+
+## Cultural Experiences
+
+**JR Pass** - If you&apos;re traveling between cities, this pays for itself quickly.
+
+**Omamori (Good Luck Charm)** - Bought one at Senso-ji Temple. Great souvenir and conversation starter.
+
+**Furoshiki Wrapping Cloth** - Eco-friendly way to carry purchases and gifts.
+
+## Pro Tips
+
+- Download Google Translate with camera feature
+- Learn basic phrases: arigatou gozaimasu, sumimasen, eigo ga dekimasu ka?
+- Bow slightly when greeting - it&apos;s appreciated!
+
+*Planning a Tokyo trip? Ask me anything in the comments!*`,
     date: '2024-01-10',
-    category: 'AI & Machine Learning',
-    author: 'Sush'
+    category: 'Travel',
+    author: 'Sush',
+    videoUrl: 'https://youtube.com/watch?v=example2'
   },
   {
-    slug: 'cloud-native-architecture',
-    title: 'Building Cloud-Native Applications: Best Practices',
-    excerpt: 'Discover the principles and patterns for designing scalable, resilient cloud-native applications.',
-    content: `# Building Cloud-Native Applications
+    slug: 'home-office-setup-2024',
+    title: 'My Work-From-Home Setup: Honest Reviews After 6 Months',
+    excerpt: 'After 6 months of remote work, here&apos;s what actually works in my home office setup and what was a waste of money.',
+    content: `# My Work-From-Home Setup: Honest Reviews After 6 Months
 
-Cloud-native architecture enables organizations to build and run scalable applications in modern, dynamic environments.
+I&apos;ve been working from home for 6 months now. Here&apos;s what&apos;s actually worth buying.
 
-## Core Principles
+## The Desk Setup
 
-1. **Microservices Architecture**
-2. **Containerization**
-3. **DevOps Integration**
-4. **Continuous Delivery**
+**IKEA Bekant Desk** - Simple, affordable, and spacious. No regrets here.
 
-## Best Practices
+**Herman Miller Aeron Chair** - Expensive but worth every penny. My back pain disappeared.
 
-- Design for failure
-- Implement observability
-- Automate everything
-- Use managed services
+**Monitor Arm (VIVO Dual)** - Game changer for ergonomics and desk space.
 
-## Conclusion
+## Tech That Works
 
-Cloud-native approaches enable faster development cycles and improved scalability.`,
+**MacBook Pro M2** - Handles everything I throw at it. Battery lasts all day.
+
+**LG 27" 4K Monitor** - Crystal clear for design work and video calls.
+
+**Blue Yeti Microphone** - Colleagues constantly compliment my audio quality.
+
+**Logitech MX Master 3** - Best mouse I&apos;ve ever used. The scroll wheel is magic.
+
+## Lighting & Ambiance
+
+**Elgato Key Light** - Perfect for video calls. No more weird shadows.
+
+**Philips Hue Bulbs** - Adjusting color temperature throughout the day helps with focus.
+
+## What I Regret Buying
+
+**Standing Desk Converter** - Used it for 2 weeks, now it&apos;s collecting dust.
+
+**Expensive Mechanical Keyboard** - Too loud for video calls, went back to Apple Magic Keyboard.
+
+## The Real Game Changers
+
+1. **Good lighting** - Makes you look professional on calls
+2. **Comfortable chair** - Your back will thank you
+3. **Dual monitors** - Productivity boost is real
+4. **Quality microphone** - People judge your professionalism by audio quality
+
+## Total Investment
+
+About $3,500 over 6 months. Sounds like a lot, but considering I use this setup 8+ hours daily, it&apos;s worth it.
+
+*What&apos;s in your home office setup? Share your must-haves!*`,
     date: '2024-01-05',
-    category: 'Cloud Computing',
-    author: 'Sush'
+    category: 'Product Reviews',
+    author: 'Sush',
+    productLinks: ['https://amazon.com/herman-miller-aeron', 'https://apple.com/macbook-pro']
   }
 ]
 

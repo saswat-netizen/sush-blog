@@ -1,6 +1,6 @@
-# Sush Blog
+# Sush Life - Personal Lifestyle Blog
 
-A modern, responsive blog built with Next.js 14, focusing on technology, programming, and digital innovation.
+A modern, responsive blog built with Next.js 14, focusing on daily life, travel adventures, and honest product reviews.
 
 ## ✅ **Complete Next.js Blogging Application**
 
